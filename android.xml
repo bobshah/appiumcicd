@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="test">
+    <test name="Pixel_2">
+        <listeners>
+            <listener class-name="com.qa.listeners.TestListener" />
+
+        </listeners>
+        <parameter name="emulator" value="true" />
+        <parameter name="platformName" value="Android" />
+        <parameter name="udid" value="emulator-5554" />
+        <parameter name="deviceName" value="Pixel_2" />
+        <parameter name="systemPort" value="10080" />
+        <parameter name="chromeDriverPort" value="11000" />
+
+    </test>
+</suite>
